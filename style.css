@@ -1,0 +1,40 @@
+body {
+    background-color: wheat;
+    font-family: Helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+li {
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(215, 148, 23);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(150, 107, 28);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

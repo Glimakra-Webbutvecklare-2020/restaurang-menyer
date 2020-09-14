@@ -1,0 +1,74 @@
+body {
+    background-color: antiquewhite;
+    font-family: Helvetica, sans-serif;
+}
+
+main,
+footer {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+section {
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.food-item {
+    border: 1px dashed black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.return-link {
+    font-style: normal;
+    font-size: larger;
+    margin: 20px;
+}
+
+.menu-info {
+    margin: 35px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(215, 148, 23);
+    padding: 10px;
+    border: 1px solid rgb(215, 148, 23);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(150, 107, 28);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:active {
+    cursor: pointer;
+}
+
+#starters {
+    background-color: #a3b02a;
+}
+
+#main-courses {
+    background-color: rgb(204, 125, 222);
+}
+
+#deserts {
+    background-color: hotpink;
+}
