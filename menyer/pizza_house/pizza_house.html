@@ -10,51 +10,63 @@
 <body>
 
     <main id="main">
-        <!--
-        <div class="information">
-            <h2><i class="fa fa-phone"></i> 0763 123 456</h2>
-            <h1>Pizza House</h1>
-            <h2>Måndag-Söndag | 14.00-23.00</h2>
-        </div>
-        -->
         
-        <br>
+        <div class="information">
+            <div class="column">
+                <h1>Papa John's</h1><hr>
 
+                <h2><i class="fa fa-phone"></i> 0763 123 456</h2>
+                <h2><i class="fa fa-clock-o"></i> Måndag-Söndag | 14.00-23.00</h2>
+            </div>
+            
+            <div class="column">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Papa_John%27s_Pizza_logo.svg/640px-Papa_John%27s_Pizza_logo.svg.png" alt="">
+            </div>
+        </div>
+
+
+        <br>
+        
         <div class="cards">
             <div class="container pizzas">
-                <header>
+                <header> <!-- Produkt Beskrivning -->
                     <h2>Pizza</h2>
-                    <img src="./assets/pizza.png">
-                </header> <!-- Produkt Beskrivning -->
-                <ul id="pizza-list">
-
-                </ul>
+                    <div class="logo-container">
+                        <img src="./assets/pizza.png">
+                    </div>
+                </header> 
+                <ul id="pizza-list"></ul>
             </div>
             <div class="container other">
                 <header>
                     <h2>Hamburgare och Kebab</h2>
-                    <img src="./assets/hamburger.png">
+                    <div class="logo-container">
+                        <img src="./assets/hamburger.png">
+                    </div>
                 </header>
-                <ul id="hamburger-list">
-
-                </ul>
+                <ul id="hamburger-list"></ul>
             </div>
             <div class="container drinks">
                 <header>
                     <h2>Dryck</h2>
-                    <img src="./assets/mineral-water.png">
+                    <div class="logo-container">
+                        <img src="./assets/mineral-water.png">
+                    </div>
                 </header>
-                <ul id="drinks-list">
-
-                </ul>
+                <ul id="drinks-list"></ul>
             </div>
         </div>
 
         <br>
 
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=14.135110080242159%2C56.30566107647731%2C14.138650596141815%2C56.307199625334&amp;layer=mapnik&amp;marker=56.30643035865104%2C14.136880338191986"
+        style="border: 1px solid black">
+        </iframe>
 
     </main>
     
+
 
     <script src="./assets/populate.js"></script>
 </body>

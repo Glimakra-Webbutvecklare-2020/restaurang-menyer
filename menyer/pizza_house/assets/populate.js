@@ -6,8 +6,14 @@ let addElements = (dataArray, element) => { // array, HTMLElement
     if (dataArray != undefined && dataArray.length > 0 && element != null) {
         for (let i = 0; i < dataArray.length; i++) {
             let node = document.createElement("li")
-            node.appendChild(document.createElement("span").appendChild(document.createTextNode("Calzone")))
-            node.appendChild(document.createElement("span").appendChild(document.createTextNode("10kr")))
+
+            let span1 = document.createElement("span")
+            let span2 = document.createElement("span")
+            span1.appendChild(document.createTextNode(dataArray[i].title))
+            span2.appendChild(document.createTextNode(dataArray[i].price))
+
+            node.appendChild(span1)
+            node.appendChild(span2)
 
             element.appendChild(node)
         }
@@ -15,30 +21,29 @@ let addElements = (dataArray, element) => { // array, HTMLElement
 }
 
 (function () {
-    addElements(
-        [{
-                title: "Hamburgare",
-                price: "10kr"
+    addElements([{
+                title: "Hawaii",
+                price: "88kr"
             },
             {
-                title: "Hamburgare",
-                price: "10kr"
+                title: "Pepperoni",
+                price: "88kr"
             },
             {
-                title: "Hamburgare",
-                price: "10kr"
+                title: "Bombay",
+                price: "88kr"
             },
             {
-                title: "Hamburgare",
-                price: "10kr"
+                title: "Mexicana ( Stark )",
+                price: "95kr"
             },
             {
-                title: "Hamburgare",
-                price: "10kr"
+                title: "Salami",
+                price: "95kr"
             },
             {
-                title: "Hamburgare",
-                price: "10kr"
+                title: "Kebabpizza",
+                price: "99kr"
             }
         ], selectElementById("pizza-list"),
     )
@@ -66,6 +71,21 @@ let addElements = (dataArray, element) => { // array, HTMLElement
         {
             title: "Hamburgare",
             price: "10kr"
+        }
+        ,
+        {
+            title: "Hamburgare",
+            price: "10kr"
+        }
+        ,
+        {
+            title: "Hamburgare",
+            price: "10kr"
+        }
+        ,
+        {
+            title: "Hamburgare",
+            price: "11kr"
         }
     ], selectElementById("hamburger-list"))
 
