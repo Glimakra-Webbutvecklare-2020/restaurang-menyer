@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+    --background-color: rgb(223, 202, 159);
+    --color-01-dark: rgb(41, 115, 115);
+    --color-01-bright: rgb(160, 238, 192);
+    --color-02-dark: rgb(116, 66, 83);
+    --color-02-bright: rgb(240, 128, 128);
+}
+
+section {
+    background-color: var(--background-color);
+    border: 8px double var(--color-02-bright);
+    border-radius: 6px;
+    box-shadow: 4px 4px 0 var(--color-02-dark);
+    margin: 25px 150px;
+}
+
+h4, p {
+    color: var(--color-02-dark);
+    font-family: "Concert One";
+}
+
+.food_item {
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    border: 2px dashed var(--color-02-dark);
+    border-radius: 12px;
+    padding: 25px;
+}
