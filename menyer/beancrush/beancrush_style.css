@@ -1,43 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
 
 :root {
-    --background-color: rgb(223, 202, 159);
-    --color-01-dark: rgb(41, 115, 115);
-    --color-01-bright: rgb(160, 238, 192);
-    --color-02-dark: rgb(116, 66, 83);
-    --color-02-bright: rgb(240, 128, 128);
+    --custom-darkgray: rgba(112, 112, 112, 0.534);
+    --custom-lightgray: rgba(165, 165, 165, 0.534);
+    --custom-black: rgb(68, 69, 69);
+    --custom-white: rgb(231, 227, 219);
+    --custom-pink-light: rgb(236, 136, 206); 
+    --custom-pink-dark: rgb(195, 50, 152);
+    --custom-blue-light: rgb(185, 227, 240);
+    --custom-blue-dark: rgb(96, 199, 225);
+
+}
+
+#header_image {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+body {
+    background-image: url("img_background_concrete.jpg");
 }
 
 section {
-    background-color: var(--background-color);
-    border: 8px double var(--color-02-bright);
+    background-image: url("img_background_scales.jpg");
+    border: 2px solid var(--custom-pink-light);
     border-radius: 6px;
-    box-shadow: 4px 4px 0 var(--color-02-dark);
+    box-shadow: 0 0 12px var(--custom-pink-dark);
     margin: 25px 150px;
 }
 
 h1 {
-    font-family: "Bungee Shade";
+    font-family: "Codystar";
+    font-size: 70px;
     text-align: center;
+    color: var(--custom-blue-light);
+    text-shadow: 0 0 6px var(--custom-blue-dark);
+    border: 2px solid var(--custom-pink-light);
+    box-shadow: 0 0 12px var(--custom-pink-dark);
+    border-radius: 12px;
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 h2, h3 {
     font-family: "Nova Round";
+    color: var(--custom-white);
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 6px;
 }
 
 h4, p {
-    color: var(--color-02-dark);
+    color: var(--custom-white);
     font-family: "Concert One";
+    margin: 4px;
+    text-shadow: 1px 1px 1px var(--custom-black);
 }
 
-.food_item {
-    width: 500px;
-    height: 250px;
-    display: inline-block;
-    margin: 20px;
-    border: 2px dashed var(--color-02-dark);
+p {
+    width: 1000px;
+}
+
+.food_item_1, .food_item_2 {
+    height: 42px;
+    margin: 10px;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px dotted var(--custom-blue-light);
     border-radius: 12px;
     padding: 25px;
+    box-shadow: 0 0 8px var(--custom-blue-dark);
+}
+
+.food_item_1 {
+    background-color: var(--custom-darkgray);
+}
+
+.food_item_2 {
+    background-color: var(--custom-lightgray);
 }
