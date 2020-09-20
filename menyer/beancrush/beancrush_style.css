@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
@@ -58,7 +58,7 @@ h2, h3 {
 
 h4, p {
     color: var(--custom-white);
-    font-family: "Concert One";
+    font-family: "Kufam";
     margin: 4px;
     text-shadow: 1px 1px 1px var(--custom-black);
 }
