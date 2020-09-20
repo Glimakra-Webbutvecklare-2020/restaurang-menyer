@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 :root {
     --background-color: rgb(223, 202, 159);
@@ -14,6 +16,15 @@ section {
     border-radius: 6px;
     box-shadow: 4px 4px 0 var(--color-02-dark);
     margin: 25px 150px;
+}
+
+h1 {
+    font-family: "Bungee Shade";
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: "Nova Round";
 }
 
 h4, p {
