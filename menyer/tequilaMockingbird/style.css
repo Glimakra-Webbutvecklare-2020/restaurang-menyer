@@ -4,6 +4,29 @@
 }
 
 body {
+    text-align: center;
+    background-color: lavender;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 5vw;
+}
+
+body header {
+    width: 100%;
+    margin: auto;
+    background-color: seagreen;
+}
+
+body main {
     width: 80%;
     margin: auto;
+    background-color: lightgreen;
+}
+
+body footer {
+    width: 80%;
+    margin: auto;
+    background-color: lightgreen;
 }
