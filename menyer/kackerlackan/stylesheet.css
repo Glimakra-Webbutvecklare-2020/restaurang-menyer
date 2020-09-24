@@ -33,10 +33,6 @@ img {
     padding: 0px 30px 30px 0px;
 }
 
-.box {
-    border-right: 20px solid red !important; 
-}
-
 /*Items klasserna för varje respektive rätt*/
 .item {
 border-style: hidden double double hidden;
