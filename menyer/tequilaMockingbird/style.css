@@ -35,3 +35,20 @@ body footer {
 body footer a {
     text-decoration: none;
 }
+
+article {
+    min-height: 100px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+article::before {
+    content: '';
+
+}
+
+.drinkitems {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
