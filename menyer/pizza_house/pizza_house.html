@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza House</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/pizza_house.css">
+    <link rel="stylesheet" href="./static/pizza_house.css">
 </head>
 <body>
 
@@ -20,19 +20,16 @@
             </div>
             
             <div class="column">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Papa_John%27s_Pizza_logo.svg/640px-Papa_John%27s_Pizza_logo.svg.png" alt="">
+                <img src="./assets/logo.png" alt="Pizza Logo">
             </div>
         </div>
 
-
-        <br>
-        
         <div class="cards">
             <div class="container pizzas">
                 <header> <!-- Produkt Beskrivning -->
                     <h2>Pizza</h2>
                     <div class="logo-container">
-                        <img src="./assets/pizza.png">
+                        <img src="./assets/pizza.png" alt="Pizza slice logo">
                     </div>
                 </header> 
                 <ul id="pizza-list"></ul>
@@ -41,7 +38,7 @@
                 <header>
                     <h2>Övrig Mat</h2>
                     <div class="logo-container">
-                        <img src="./assets/hamburger.png">
+                        <img src="./assets/hamburger.png" alt="Hamburger logo">
                     </div>
                 </header>
                 <ul id="hamburger-list"></ul>
@@ -50,14 +47,12 @@
                 <header>
                     <h2>Dryck</h2>
                     <div class="logo-container">
-                        <img src="./assets/soda.png">
+                        <img src="./assets/soda.png" alt="Drink logo">
                     </div>
                 </header>
                 <ul id="drinks-list"></ul>
             </div>
         </div>
-
-        <br>
 
         <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
         src="https://www.openstreetmap.org/export/embed.html?bbox=14.135110080242159%2C56.30566107647731%2C14.138650596141815%2C56.307199625334&amp;layer=mapnik&amp;marker=56.30643035865104%2C14.136880338191986"
@@ -68,6 +63,6 @@
     
 
 
-    <script src="./assets/populate.js"></script>
+    <script src="./static/populate.js"></script>
 </body>
 </html>
