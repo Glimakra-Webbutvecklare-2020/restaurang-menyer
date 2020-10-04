@@ -1,0 +1,93 @@
+body {
+    background-color: snow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main,
+footer {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+section {
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    font-style: normal;
+    color: black;
+}
+
+.food-item {
+    border: 1px dashed black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.food-item-prize {
+    font-style: normal;
+    font-size: larger;
+    margin: 20px;
+    
+}
+
+.return-link {
+    font-style: normal;
+    font-size: larger;
+    margin: 20px;
+}
+
+.menu-info {
+    margin: 35px;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightseagreen;
+    padding: 10px;
+    border: 1px solid
+}
+
+section {
+    background-color: rgb(237, 205, 100);
+}
+
+#starters {
+    background-color:rgb(212, 243, 245);
+    border: 4px dotted rgb(101, 216, 245);
+}
+
+#main-courses {
+    background-color: lemonchiffon;
+    border: 4px dotted; color:rgb(190, 98, 37); 
+}    
+
+#deserts {
+    background-color: rgb(204, 245, 209);
+    border: 4px dotted rgb(143, 240, 134)
+}
+
+section#starters h2 {
+    color: rgb(14, 160, 185)
+}
+
+section#main-courses h2 {
+    color: rgb(233, 157, 16);
+}
+
+section#deserts h2 {
+    color: rgb(39, 99, 39)
+}
