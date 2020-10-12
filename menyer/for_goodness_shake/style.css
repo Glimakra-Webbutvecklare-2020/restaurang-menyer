@@ -1,0 +1,98 @@
+body {
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    max-width: 720px;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    z-index: -1;
+    color: white;
+    background: url("images/black-chalk-board-texture_89245-170.jpg");
+    background-size: cover;
+    border: 5px ridge grey;
+}
+
+.menuSection {
+    width: 33.33%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.menuItems {
+    position: absolute;
+    text-align: left;
+    left: 10px;
+}
+
+.hamburgare {
+    position: absolute;
+    left: 240px;
+}
+
+.tillbehor {
+    position: absolute;
+    left: 480px;
+}
+
+.itemPrices {
+    position: absolute;
+    text-align: right;
+    float: right;
+    right: 10px;
+    /* text-decoration: underline;
+    text-decoration-style: dotted; */
+}
+
+.milkshakePriser {
+    position: absolute;
+    right: 480px;
+}
+
+.hamburgarePriser {
+    position: absolute;
+}
+
+.tillbehorPriser {
+    position: absolute;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(13, 16, 230);
+    border: 1px solid rgb(13, 16, 230);
+    padding: 5px;
+}
+
+.finePrint {
+    font-size: 0.7rem;
+}
+
+small {
+    font-size: 0.5rem;
+}
