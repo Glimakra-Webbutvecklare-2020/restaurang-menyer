@@ -14,18 +14,22 @@ footer{
     margin: auto;
     max-width: 700px;
 }
+
 ul{
     list-style: none;
     padding: 0%;
     margin: 20px;
 }
+
 li{
     font-size: large;
 }
+
 a:link{
     text-decoration: none;
     color: darksalmon;
 }
+
 a.hover{
     text-decoration: underline;
 }
