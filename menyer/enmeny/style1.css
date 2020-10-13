@@ -10,7 +10,7 @@ header {
     font-size: 20px;
 }
 
-.forratter {
+.menusection {
     background-color: aqua;
     padding: 20px;
     margin: 200px;
@@ -19,34 +19,18 @@ header {
     box-shadow: 13px 13px 8px 8px magenta;
 }
 
-.skinkis, .fruktis, .julis, .paris, .kottis, .cremis {
+.matgrej {
     border-style: dotted;
     border-width: 3px;
     border-radius: 30px;
+    margin-bottom: 20px;
 }
 
-.huvudratter {
-    background-color: aqua;
-    padding: 20px;
-    margin: 200px;
-    border-radius: 30px;
-    color: blueviolet;
-    box-shadow: 13px 13px 8px 8px magenta;
-}
-
-.efterratter {
-    background-color: aqua;
-    padding: 20px;
-    margin: 200px;
-    border-radius: 30px;
-    color: blueviolet;
-    box-shadow: 13px 13px 8px 8px magenta;
-}
-
-.forratterh2, .huvudratterh2, .efterratt {
+.h2rub {
     color: darkmagenta;
     font-size: 33px;
 }
+
 .besk, .skinkmackah3, .ettparon, .fruktsallad, .julbord, .kottbit, .creme {
     color: maroon;
 }
