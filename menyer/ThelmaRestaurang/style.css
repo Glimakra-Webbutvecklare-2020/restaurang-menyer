@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("tr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+}
+._nav{
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+  position: fixed;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+._texDeco{
+  color: red;
+}
+._aside{
+  height: 100vh;
+  width: 250px;
+  background-color: red;
+  float: left;
+  border-right: 2px solid orange;
+  position: fixed;
+  z-index: 1000
+}
+._aside a{
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 20px;
+  color: white;
+}
+._aside ul li{
+  padding: 20px 10px 10px 10px;
+  border-bottom: 1px solid orange;
+}
+._container{
+}
+._container a{
+  /* padding: 30px; */
+  text-decoration: none;
+  color: red;
+}
+._food{
+  display: inline;
+  margin: 30%;
+  background-color: black;
+}
+._food a img{
+  width: 700px;
+  padding-top: 70px;
+}
+._food h3{
+  text-align: center;
+
+}
+._food img{
+
+}
