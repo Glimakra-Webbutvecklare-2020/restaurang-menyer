@@ -1,14 +1,42 @@
 body {
-    background-color: wheat;
-    font-family: Helvetica, sans-serif;
+    background-color: beige;
+    font-family: 'Allura'; font-size: 35px;
+    opacity: 0,5;
+}
+
+ img {
+    border: 10px;
+    border-color: royalblue;
+
+ }
+header{
+
+    border: double 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: palegreen;
+
+}
+main {
+    background-color: paleturquoise;
+    border: double 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+section.rätter {
+    font-family: 'Allura'
 }
 
 header,
 main,
 footer {
+    background-color: lightslategray;
+    border: double 10px;
     text-align: center;
     margin: auto;
-    max-width: 700px;
+    padding: 10px;
+
 }
 
 ul {
@@ -23,7 +51,7 @@ li {
 
 a:link {
     text-decoration: none;
-    color: rgb(215, 148, 23);
+    color: goldenrod;
 }
 
 a:visited {
