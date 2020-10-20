@@ -73,7 +73,6 @@ p {
     padding-right: 12px;
     border: 2px dotted var(--custom-blue-light);
     border-radius: 12px;
-    padding: 25px;
     box-shadow: 0 0 8px var(--custom-blue-dark);
 }
 
