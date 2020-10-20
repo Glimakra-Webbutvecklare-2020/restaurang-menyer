@@ -1,0 +1,60 @@
+body {
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    max-width: 720px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.menu {
+    z-index: -1;
+    color: white;
+    background: url("images/black-chalk-board-texture_89245-170.jpg");
+    background-size: cover;
+    border: 5px ridge grey;
+    height: 250px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-decoration: underline;
+}
+
+td {
+    text-align: left;
+    padding: 0 5px;
+    width: 20%;
+}
+
+td:nth-child(2n) {
+    text-align: right;
+    width: 9%
+}
+
+p {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(13, 16, 230);
+    border: 1px solid rgb(13, 16, 230);
+    padding: 5px;
+}
+
+.fine-print {
+    font-size: 0.7rem;
+}
+
+small {
+    font-size: 0.5rem;
+}
