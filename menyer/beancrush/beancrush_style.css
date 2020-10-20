@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
-
 :root {
     --custom-darkgray: rgba(112, 112, 112, 0.534);
     --custom-lightgray: rgba(165, 165, 165, 0.534);
@@ -68,7 +67,6 @@ p {
 }
 
 .food_item_1, .food_item_2 {
-    height: 42px;
     margin: 10px;
     padding-top: 2px;
     padding-left: 12px;
