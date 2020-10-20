@@ -11,4 +11,4 @@ En samlingsida för restaurang menyer författad av deltagare på Glimåkra Webb
 
 ## Krav
 
-Se till att använda minst 3 attributer av `color`, `background-color`, `border`, `padding` och `margin`.
+Se till att använda minst 3 attributer av `color`, `background-color`, `border`, `padding` och `margin`. Ingen Flex eller Grid.
