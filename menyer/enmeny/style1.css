@@ -1,0 +1,36 @@
+body {
+    background-image: url('../enmeny/images/wallpaper.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+header {
+    font-style: inherit;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.menusection {
+    background-color: aqua;
+    padding: 20px;
+    margin: 200px;
+    border-radius: 30px;
+    color: blueviolet;
+    box-shadow: 13px 13px 8px 8px magenta;
+}
+
+.matgrej {
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.matklass {
+    color: darkmagenta;
+    font-size: 33px;
+}
+
+.matgrejtext {
+    color: maroon;
+}
