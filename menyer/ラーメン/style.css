@@ -1,0 +1,153 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'san-serif';
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* position relative */
+header,
+.spacing_btw_elements,
+.box_2,
+.box_3 {
+    position: relative;
+}
+
+/* position absolute */
+header>img,
+header>span,
+.spacing_btw_elements>h2,
+.spacing_btw_elements>h3,
+.box_2 img,
+.box_3 img,
+.box_3 div,
+a {
+    position: absolute;
+}
+
+/* spacing used between elements */
+.spacing_btw_elements {
+    height: 75px;
+}
+
+/* text */
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4,
+p,
+ul {
+    line-height: 30px;
+}
+
+.spacing_btw_elements>h2,
+.spacing_btw_elements>h3 {
+    width: 100%;
+    bottom: 0;
+}
+
+/* header */
+header{
+    width: 600px;
+}
+
+header {
+    height: 400px;
+}
+
+header>img {
+    left: -40px;
+}
+
+header>span {
+    top: 170px;
+    right: 15px;
+}
+
+/* box_1 */
+.box_1 {
+    width: 600px;
+    background-color: #ccd7d9;
+    padding: 18px;
+}
+
+.box_1 ul {
+    list-style-type: none;
+}
+
+/* box_2 */
+.box_2 { 
+    height: 250px;
+    width: 1000px;
+}
+
+.box_2 img:nth-child(1),
+.box_2 img:nth-child(4) {
+    left: 50px;
+}
+
+.box_2 img:nth-child(2),
+.box_2 img:nth-child(5) {
+    left: 375px;
+}
+
+.box_2 img:nth-child(3),
+.box_2 img:nth-child(6) {
+    right: 50px;
+}
+
+/* box_3 */
+.box_3 {
+    background-color: rgb(255, 208, 202);
+    height: 350px;
+    width: 1000px;
+}
+
+.box_3 img {
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    border: 2px solid #ccd7d9;
+}
+
+.box_3 div {
+    top: 100px;
+    left: 100px;
+}
+
+/* border radius */
+.box_1,
+.box_3,
+.box_2,
+.box_2 img,
+.box_3 img,
+.footer_link {
+    border-radius: 15px;
+}
+
+/* link in footer */
+.footer_link {
+
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    bottom: -60px;
+    right: 30px;
+}
+
+.footer_link:hover {
+    background-color: #ccd7d9;
+}
